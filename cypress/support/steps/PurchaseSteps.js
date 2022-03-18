@@ -19,10 +19,6 @@ And("Enter the Billing Data along with the Login details",() => {
     purchasePage.enterTheBillingData();
 })
 
-And("Place the order button",() => {
+Then("Place the order button",() => {
     purchasePage.clickOrderButton();
-})
-
-Then("verify that the order has been placed successfully or not",() => {
-    purchasePage.validatePurchase();
 })
